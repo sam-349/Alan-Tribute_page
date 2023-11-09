@@ -52,12 +52,13 @@
 }
 
 .about-box{
-    font-size: 1.8rem;
+    /* font-size: 1.8rem; */
     text-align: justify;
 }
 
 .about-box p{
     color: #000;
+    font-size: 1.5rem;
     font-weight: 400;
     margin-left: 4rem;
 }
@@ -246,4 +247,40 @@ ul li .descr::before {
 }
 .credits a {
   color: var(--color);
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: #acacac;
+  width: 100%;
+  height: 20vh;
+  top: 50%;
+}
+
+footer p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conclusion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px;
+  position: relative;
+}
+
+.conclusion h2{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.conclusion p{
+  margin: 0 30px;
+  font-size: 20px;
+  
 }
